@@ -313,6 +313,7 @@ export class MermaidController extends HTMLElement {
         mermaid.initialize({
             startOnLoad: false,
             maxTextSize: Number.MAX_SAFE_INTEGER,
+            maxEdges: Number.MAX_SAFE_INTEGER,
             // may be option?
             sequence: {
                 showSequenceNumbers: true
